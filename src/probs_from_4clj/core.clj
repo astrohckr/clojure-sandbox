@@ -17,3 +17,8 @@
 (def intro-to-strings-solution (.toUpperCase "hello world"))
   ;; Clojure strings are Java strings. This means that you can use any of the Java string methods on Clojure strings.
 
+
+
+;; problem 4 (Elementary)
+(defn intro-to-lists-solution [x y z] (list x y z))
+  ;; Lists can be constructed with either a function or a quoted form.
