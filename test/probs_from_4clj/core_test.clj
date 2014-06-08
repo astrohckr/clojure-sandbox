@@ -56,3 +56,8 @@
 (deftest can-intro-to-maps
   (is (= intro-to-maps-solution ((hash-map :a 10, :b 20, :c 30) :b)))
   (is (= intro-to-maps-solution (:b {:a 10, :b 20, :c 30}))))
+
+
+;; problem 11
+(deftest can-maps-conj
+  (is (= {:a 1, :b 2, :c 3} (conj {:a 1} maps-conj-solution [:c 3]))))
