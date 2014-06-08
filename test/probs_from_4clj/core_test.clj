@@ -39,3 +39,9 @@
 (deftest can-vectors-conj
   (is (= vectors-conj-solution (conj [1 2 3] 4)))
   (is (= vectors-conj-solution (conj [1 2] 3 4))))
+
+
+;; problem 8
+(deftest can-intro-to-sets
+  (is (= intro-to-sets-solution (set '(:a :a :b :c :c :c :c :d :d))))
+  (is (= intro-to-sets-solution (clojure.set/union #{:a :b :c} #{:b :c :d}))))
