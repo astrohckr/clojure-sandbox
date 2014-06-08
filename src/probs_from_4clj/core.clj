@@ -28,3 +28,9 @@
 (def lists-conj-solution '(1 2 3 4))
   ;; When operating on a list, the conj function will return a new list with one or more items "added" to the front.
 
+
+
+;; problem 6 (Elementary)
+(def intro-to-vectors-solution [:a :b :c])
+  ;; Vectors can be constructed several ways. You can compare them with lists.
+

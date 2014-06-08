@@ -28,3 +28,8 @@
 (deftest can-lists-conj
   (is (= lists-conj-solution (conj '(2 3 4) 1)))
   (is (= lists-conj-solution (conj '(3 4) 2 1))))
+
+
+;; problem 6
+(deftest can-intro-to-vectors
+  (is (= intro-to-vectors-solution (list :a :b :c) (vec '(:a :b :c)) (vector :a :b :c))))
