@@ -22,3 +22,9 @@
 ;; problem 4
 (deftest can-intro-to-lists
   (is (= (intro-to-lists-solution :a :b :c) '(:a :b :c))))
+
+
+;; problem 5
+(deftest can-lists-conj
+  (is (= lists-conj-solution (conj '(2 3 4) 1)))
+  (is (= lists-conj-solution (conj '(3 4) 2 1))))

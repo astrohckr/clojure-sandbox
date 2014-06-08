@@ -22,3 +22,9 @@
 ;; problem 4 (Elementary)
 (defn intro-to-lists-solution [x y z] (list x y z))
   ;; Lists can be constructed with either a function or a quoted form.
+
+
+;; problem 5 (Elementary)
+(def lists-conj-solution '(1 2 3 4))
+  ;; When operating on a list, the conj function will return a new list with one or more items "added" to the front.
+
