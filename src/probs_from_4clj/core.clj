@@ -34,3 +34,9 @@
 (def intro-to-vectors-solution [:a :b :c])
   ;; Vectors can be constructed several ways. You can compare them with lists.
 
+
+
+;; problem 7 (Elementary)
+(def vectors-conj-solution [1 2 3 4])
+  ;; When operating on a Vector, the conj function will return a new vector with one or more items "added" to the end.
+
