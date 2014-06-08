@@ -11,3 +11,9 @@
 (def simple-math-solution 4)
   ;; If you are not familiar with polish notation, simple arithmetic might seem confusing. Note: Enter only enough to fill in the blank (in this case, a single number) - do not retype the whole problem.
 
+
+
+;; problem 3 (Elementary)
+(def intro-to-strings-solution (.toUpperCase "hello world"))
+  ;; Clojure strings are Java strings. This means that you can use any of the Java string methods on Clojure strings.
+
