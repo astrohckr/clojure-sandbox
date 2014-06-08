@@ -89,3 +89,30 @@
   [num] ;; update args as needed
   ;; Write a function which doubles a number.
   (* 2 num))
+
+
+;; problem 16 (Elementary)
+(defn hello-world-solution
+  [name] ;; update args as needed
+  ;; Write a function which returns a personalized greeting.
+  (str "Hello, " name "!"))
+
+
+;; problem 17 (Elementary)
+(def sequences-map-solution '(6 7 8))
+  ;; The map function takes two arguments: a function (f) and a sequence (s). Map returns a new sequence consisting of the result of applying f to each item of s. Do not confuse the map function with the map data structure.
+
+
+
+;; problem 18 (Elementary)
+(def sequences-filter-solution '(6 7))
+  ;; The filter function takes two arguments: a predicate function (f) and a sequence (s). Filter returns a new sequence consisting of all the items of s for which (f item) returns true.
+
+
+
+;; problem 19 (Easy)
+;; restrictions: last
+(defn last-element-solution
+  [collection] ;; update args as needed
+  ;; Write a function which returns the last element in a sequence.
+  (nth collection (- (count collection) 1)))

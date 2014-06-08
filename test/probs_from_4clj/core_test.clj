@@ -89,3 +89,27 @@
   (is (= (double-down-solution 3) 6))
   (is (= (double-down-solution 11) 22))
   (is (= (double-down-solution 7) 14)))
+
+
+;; problem 16
+(deftest can-hello-world
+  (is (= (hello-world-solution "Dave") "Hello, Dave!"))
+  (is (= (hello-world-solution "Jenn") "Hello, Jenn!"))
+  (is (= (hello-world-solution "Rhea") "Hello, Rhea!")))
+
+
+;; problem 17
+(deftest can-sequences-map
+  (is (= sequences-map-solution (map #(+ % 5) '(1 2 3)))))
+
+
+;; problem 18
+(deftest can-sequences-filter
+  (is (= sequences-filter-solution (filter #(> % 5) '(3 4 5 6 7)))))
+
+
+;; problem 19
+(deftest can-last-element
+  (is (= (last-element-solution [1 2 3 4 5]) 5))
+  (is (= (last-element-solution '(5 4 3)) 3))
+  (is (= (last-element-solution ["b" "c" "d"]) "d")))
