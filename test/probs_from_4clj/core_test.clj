@@ -7,3 +7,8 @@
 ;; problem 1
 (deftest can-nothing-but-the-truth
   (is (= nothing-but-the-truth-solution true)))
+
+
+;; problem 2
+(deftest can-simple-math
+  (is (= (- 10 (* 2 3)) simple-math-solution)))
