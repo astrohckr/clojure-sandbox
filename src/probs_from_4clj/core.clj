@@ -70,3 +70,22 @@
 (def intro-to-sequences-solution 3)
   ;; All Clojure collections support sequencing. You can operate on sequences with functions like first, second, and last.
 
+
+
+;; problem 13 (Elementary)
+(def sequences-rest-solution [20 30 40])
+  ;; The rest function will return all the items of a sequence except the first.
+
+
+
+;; problem 14 (Elementary)
+(def intro-to-functions-solution 8)
+  ;; Clojure has many different ways to create functions.
+
+
+
+;; problem 15 (Elementary)
+(defn double-down-solution
+  [num] ;; update args as needed
+  ;; Write a function which doubles a number.
+  (* 2 num))
