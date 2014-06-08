@@ -116,3 +116,27 @@
   [collection] ;; update args as needed
   ;; Write a function which returns the last element in a sequence.
   (nth collection (- (count collection) 1)))
+
+
+;; problem 20 (Easy)
+(defn penultimate-element-solution
+  [collection] ;; update args as needed
+  ;; Write a function which returns the second to last element from a sequence.
+  (nth collection (- (count collection) 2)))
+
+
+;; problem 21 (Easy)
+;; restrictions: nth
+(defn nth-element-solution
+  [collection n] ;; update args as needed
+  ;; Write a function which returns the Nth element from a sequence.
+  (last (take (+ n 1) collection)))
+
+
+
+;; problem 22 (Easy)
+;; restrictions: count
+(defn count-a-sequence-solution
+  [collection] ;; update args as needed
+  ;; Write a function which returns the total number of elements in a sequence.
+  (reduce + (map (fn [x] 1) collection)))
