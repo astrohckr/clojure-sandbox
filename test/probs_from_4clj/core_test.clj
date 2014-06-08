@@ -61,3 +61,10 @@
 ;; problem 11
 (deftest can-maps-conj
   (is (= {:a 1, :b 2, :c 3} (conj {:a 1} maps-conj-solution [:c 3]))))
+
+
+;; problem 12
+(deftest can-intro-to-sequences
+  (is (= intro-to-sequences-solution (first '(3 2 1))))
+  (is (= intro-to-sequences-solution (second [2 3 4])))
+  (is (= intro-to-sequences-solution (last (list 1 2 3)))))

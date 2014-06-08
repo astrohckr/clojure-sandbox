@@ -64,3 +64,9 @@
 (def maps-conj-solution [:b 2])
   ;; When operating on a map, the conj function returns a new map with one or more key-value pairs "added".
 
+
+
+;; problem 12 (Elementary)
+(def intro-to-sequences-solution 3)
+  ;; All Clojure collections support sequencing. You can operate on sequences with functions like first, second, and last.
+
