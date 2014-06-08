@@ -46,3 +46,9 @@
 (def intro-to-sets-solution #{:a :c :b :d})
   ;; Sets are collections of unique values.
 
+
+
+;; problem 9 (Elementary)
+(def sets-conj-solution 2)
+  ;; When operating on a set, the conj function returns a new set with one or more keys "added".
+

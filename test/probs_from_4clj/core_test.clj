@@ -45,3 +45,8 @@
 (deftest can-intro-to-sets
   (is (= intro-to-sets-solution (set '(:a :a :b :c :c :c :c :d :d))))
   (is (= intro-to-sets-solution (clojure.set/union #{:a :b :c} #{:b :c :d}))))
+
+
+;; problem 9
+(deftest can-sets-conj
+  (is (= #{1 2 3 4} (conj #{1 4 3} sets-conj-solution))))
