@@ -52,3 +52,9 @@
 (def sets-conj-solution 2)
   ;; When operating on a set, the conj function returns a new set with one or more keys "added".
 
+
+
+;; problem 10 (Elementary)
+(def intro-to-maps-solution 20)
+  ;; Maps store key-value pairs. Both maps and keywords can be used as lookup functions. Commas can be used to make maps more readable, but they are not required.
+
